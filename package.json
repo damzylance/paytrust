@@ -1,0 +1,27 @@
+{
+  "name": "paytrust",
+  "version": "1.0.0",
+  "description": "The trust infrastructure for ecommerce",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/damzylance/paytrust.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/damzylance/paytrust/issues"
+  },
+  "homepage": "https://github.com/damzylance/paytrust#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.18.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.1",
+    "nodemon": "^2.0.15"
+  }
+}
